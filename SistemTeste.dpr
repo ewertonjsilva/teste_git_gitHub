@@ -2,13 +2,13 @@ program SistemTeste;
 
 uses
   Vcl.Forms,
-  unt_principal in 'unt_principal.pas' {Form1};
+  unt_principal in 'unt_principal.pas' {frm_principal};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(Tfrm_principal, frm_principal);
   Application.Run;
 end.
