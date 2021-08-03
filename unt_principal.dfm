@@ -4,7 +4,7 @@ object frm_principal: Tfrm_principal
   Caption = 'frm_principal'
   ClientHeight = 294
   ClientWidth = 582
-  Color = clBtnFace
+  Color = clRed
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
